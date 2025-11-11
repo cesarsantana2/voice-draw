@@ -66,12 +66,12 @@ def draw_line(canvas, cmd):
 ## Fluxo interno
 
 ```mermaid
-graph TD;
-    A[nlp_parser.py] --> B[app.py];
-    B --> C[ui_canvas.draw_shape()];
-    C --> D[shapes.py];
-    D --> E[Função específica (circle, square, line...)];
-    E --> F[Tkinter Canvas];
+graph TD
+    A[nlp_parser py] --> B[app py]
+    B --> C[ui_canvas chama draw shape]
+    C --> D[shapes py]
+    D --> E[funcao especifica circle square line]
+    E --> F[Tkinter Canvas]
 ```
 
 ---

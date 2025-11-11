@@ -55,13 +55,13 @@ def import_state(filename="voice_draw_state.json"):
 ## Fluxo de uso
 
 ```mermaid
-graph TD;
-    A[Usuário salva projeto] --> B[app.py chama export_state()];
-    B --> C[state.py fornece shapes];
-    C --> D[export.py grava JSON];
-    E[Usuário reabre projeto] --> F[import_state() recarrega JSON];
-    F --> G[state.py repopula shapes];
-    G --> H[ui_canvas redesenha o conteúdo];
+graph TD
+    A[Usuario salva projeto] --> B[app.py chama export state]
+    B --> C[state.py fornece shapes]
+    C --> D[export.py grava arquivo JSON]
+    E[Usuario reabre projeto] --> F[import state recarrega JSON]
+    F --> G[state.py repopula shapes]
+    G --> H[ui_canvas redesenha o conteudo] 
 ```
 
 ---

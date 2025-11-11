@@ -96,12 +96,12 @@ def draw_shape(canvas, cmd):
 ## Fluxo gráfico geral
 
 ```mermaid
-graph TD;
-    A[app.py] --> B[ui_canvas.draw_shape()];
-    B --> C[Identifica tipo de forma];
-    C --> D[Função específica (ex: draw_circle)];
-    D --> E[Tkinter Canvas];
-    E --> F[Renderização visual na tela];
+graph TD
+    A[app py] --> B[ui canvas chama draw shape]
+    B --> C[identifica tipo de forma]
+    C --> D[funcao especifica ex draw circle]
+    D --> E[Tkinter Canvas]
+    E --> F[renderizacao visual na tela]
 ```
 
 ---

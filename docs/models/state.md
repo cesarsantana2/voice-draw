@@ -92,11 +92,11 @@ class State:
 ## Fluxo de uso
 
 ```mermaid
-graph TD;
-    A[app.py] --> B[state.add_shape()];
-    B --> C[state.undo()];
-    C --> D[ui_canvas limpa e redesenha];
-    D --> E[Usuário visualiza resultado];
+graph TD
+    A[app py] --> B[state adiciona shape]
+    B --> C[state desfaz ultima acao]
+    C --> D[ui_canvas limpa e redesenha]
+    D --> E[usuario visualiza resultado]
 ```
 
 ---
